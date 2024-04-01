@@ -1,7 +1,30 @@
 # python-API-challenge
-Homework repo for module 6
+- Andrew Mack | Homework repo for module 6
 
-## Resources
+## Repo contents:
+- starter_code
+- WeatherPy
+    -- WeatherPy.ipynb
+    --output_data
+        --- cities.csv
+        --- four .png files of various chart outputs
+- VacationPy
+    -- VacationPy.ipynb
+    -- output_data
+        --- cities.csv    
+- README.md
+- .gitignore
+
+# Summary:
+- This module consisted of two challenges which are described in greater detail further below in this README file.
+
+## Part 1: WeatherPy
+- In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and your problem-solving skills to create a representative model of weather across cities.
+
+## Part 2: VacationPy
+- In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
+
+# Resources
 - Module class lessons and activities
 - Tutoring session with Reza
 - Openweathermap API documentation: https://openweathermap.org/current
@@ -14,10 +37,9 @@ Homework repo for module 6
 - reference to ID potential null values in a dataframe https://stackoverflow.com/questions/43424199/display-rows-with-one-or-more-nan-values-in-pandas-dataframe
 - adding additional labels in hover windows of hvplot:
     https://discourse.holoviz.org/t/add-an-extra-field-when-hovering-in-hvplot-scatter/2331
-    
 
 -----------
-Background
+# Background
 Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 
 Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
@@ -62,7 +84,7 @@ Module 6 Challenge filesLinks to an external site.
 Instructions
 This activity is broken down into two deliverables, WeatherPy and VacationPy.
 
-Part 1: WeatherPy
+### Part 1: WeatherPy
 In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and your problem-solving skills to create a representative model of weather across cities.
 
 For this part, you'll use the WeatherPy.ipynb Jupyter notebook provided in the starter code ZIP file. The starter code will guide you through the process of using your Python coding skills to develop a solution to address the required functionalities.
@@ -107,7 +129,7 @@ Southern Hemisphere: Wind Speed vs. Latitude
 
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
-Part 2: VacationPy
+### Part 2: VacationPy
 In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
 
 The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
@@ -161,8 +183,8 @@ Ensure that your repository has regular commits and a thorough README.md file.
 
 Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. Good luck!
 
-Requirements
-The requirements for "Part 1: WeatherPy" are the following
+## Requirements
+### The requirements for "Part 1: WeatherPy" are the following
 Create Plots to Showcase the Relationship Between Weather Variables and Latitude (30 points)
 Use the OpenWeatherMap API to retrieve weather data from the cities list generated in the started code (10 points)
 
@@ -191,7 +213,7 @@ Linear regression scatter plot for Northern Hemisphere: Wind Speed (m/s) vs. Lat
 
 Linear regression scatter plot for Southern Hemisphere: Wind Speed (m/s) vs. Latitude (5 points)
 
-The requirements for "Part 2: VacationPy" are the following (30 points)
+### The requirements for "Part 2: VacationPy" are the following (30 points)
 Create a map that displays a point for every city in the city_data_df DataFrame (5 points)
 
 Narrow down the city_data_df DataFrame to find your ideal weather condition (5 points)
