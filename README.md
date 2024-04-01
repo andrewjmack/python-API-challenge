@@ -2,11 +2,19 @@
 Homework repo for module 6
 
 ## Resources
+- Module class lessons and activities
+- Tutoring session with Reza
 - Openweathermap API documentation: https://openweathermap.org/current
+- Geoapify API documentation: https://apidocs.geoapify.com/docs/places/#categories
 - reference on time library to correctly label weather chart dates: https://www.geeksforgeeks.org/python-time-module/
 - defining py functions, to define scatterplot function in weather challenge: https://www.w3schools.com/python/python_functions.asp 
-- reference for annotating:
+- reference for annotating regression line:
     https://matplotlib.org/2.0.2/api/pyplot_api.html#matplotlib.pyplot.annotate
+- customization options for hvplot: https://hvplot.holoviz.org/user_guide/Customization.html
+- reference to ID potential null values in a dataframe https://stackoverflow.com/questions/43424199/display-rows-with-one-or-more-nan-values-in-pandas-dataframe
+- adding additional labels in hover windows of hvplot:
+    https://discourse.holoviz.org/t/add-an-extra-field-when-hovering-in-hvplot-scatter/2331
+    
 
 -----------
 Background
