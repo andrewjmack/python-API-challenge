@@ -4,14 +4,14 @@
 ## Repo contents:
 - starter_code
 - WeatherPy
-    -- WeatherPy.ipynb
-    --output_data
-        --- cities.csv
-        --- four .png files of various chart outputs
+    - WeatherPy.ipynb
+    - output_data
+        - cities.csv
+        - four .png files of various chart outputs
 - VacationPy
-    -- VacationPy.ipynb
-    -- output_data
-        --- cities.csv    
+    - VacationPy.ipynb
+    - output_data
+        - cities.csv    
 - README.md
 - .gitignore
 
